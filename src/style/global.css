@@ -1,0 +1,1437 @@
+@font-face {
+    font-family: 'Rufina';
+    src: local('Rufina Regular'), local('Rufina-Regular'), url(https://cdn.jsdelivr.net/npm/@fontsource/rufina@4.0.0/files/rufina-latin-400.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/@fontsource/rufina@4.0.0/files/rufina-latin-400.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Regular'), local('Raleway-Regular'),
+         url(https://cdn.jsdelivr.net/npm/@fontsource/raleway@4.0.0/files/raleway-latin-400.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/npm/@fontsource/raleway@4.0.0/files/raleway-latin-400.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+:root{
+    --main-color-dark:  #181D24;
+    --main-color-bg: #C9BDAB;
+
+
+}
+
+body{
+  background-color: #F5F3F1 !important;
+
+}
+
+
+
+.font-title{
+    font-family: Rufina;
+    font-weight: 700;
+}
+
+.font-content{
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+.dark-color{
+    color: var(--main-color-dark);
+}
+
+.bg-color{
+    background-color: var(--main-color-bg);
+}
+
+.content-bg-color{
+    color: var(--main-color-bg);
+
+}
+
+
+/* styling header */
+.card-image{
+  border-radius: 0px 0px  0px 40px;
+  width: 400px;
+}
+
+.card-service-container{
+  display: flex;
+padding: 60px 80px;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+flex: 1 0 0;
+align-self: stretch;
+background: #fff;
+border-radius: 60px 40px;
+}
+.card-service-content{
+  color: var(--Dark, #181D24);
+
+font-family: Rufina;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+
+letter-spacing: 1px;
+}
+
+
+
+.search-btn{
+  border-radius: 0px 10px 10px 10px;
+  padding: 25px 26px;
+  background-color: #5b656f;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-family: Roboto;  
+}
+
+.terms-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding-top:15% !important;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.terms-title {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.current-date {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+
+
+.list-item{
+  font-family: Rufina !important;
+  font-weight: 400 !important;
+  font-size: 22px;
+  letter-spacing: 0.1px !important;
+  color: #fff;
+  line-height: 16px !important;
+}
+
+
+.priceCard{
+  border-radius: 4px 4px 20px 4px;
+border-bottom: 4px solid #918675;
+background: var(--Gold-Gold-light, #F5E9D6);
+}
+
+/* end styling header */
+
+
+
+
+  /* ************************************************************************* */
+.container-about{
+  max-width: 1278px;
+}
+  .about-container{
+    height: 100vh;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+.border-contactus{
+  border-radius: 8px 8px 80px 8px;
+   max-width: 100%;
+    height: auto 
+
+}
+  .image-aboutUS{
+    max-width: 614px;
+    height: 436px;
+    border-radius: 8px 8px 80px 8px;
+
+  }
+
+/* styling Our Trending Tour Packages */
+
+.Section-Conatiner-Client{
+display: flex;
+align-items: end;
+justify-content: center;
+height: 250px;
+}
+
+.Title-Section{
+  color: var(--Dark, #181D24);
+  text-align: center;
+  
+  /* Desktop/H1 */
+  font-family: Rufina;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px; /* 120% */
+  text-transform: capitalize;
+}
+.client-position{
+  position: relative;
+    top: 160px;
+}
+.Client-Section{
+  color: var(--Dark, #181D24);
+  text-align: center;
+  
+  /* Desktop/H1 */
+  font-family: Rufina;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 700;
+ /* 120% */
+  text-transform: capitalize;
+}
+.position{
+  position: relative;
+    top: 150px;
+}
+.card-service{
+  border-radius:  4px 60px;
+max-height: 332px;
+flex-shrink: 0;
+background: #fff;
+}
+.SubTittle-Section{
+  color: var(--Dark, #181D24);
+  text-align: center;
+  font-family: Roboto;
+  
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+}
+
+
+.slick-dots li button:before{
+  color: #fff !important;
+}
+
+.dots ,.slick-dots li button:before {
+  color: #fff !important;
+}
+
+
+.Our-Trending-container{
+  margin-left: 10px;
+  margin-top: 50px;
+  
+  display: flex;
+  justify-content: center;
+}
+
+#Our-Trending{
+  background-color: #F5F3F1;
+}
+
+/* end styling Our Trending Tour Packages */
+
+
+/* styling OUR SERVICES */
+
+
+.our-services{
+  background-color: var(--main-color-bg);
+  border-radius: 100px 10px;
+}
+
+.OUR-SERVICES-title{
+  font-weight: 700;
+  font-size: 60px;
+  color: var(--main-color-dark);
+}
+
+.OUR-SERVICES-content{
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--main-color-dark);
+  max-width: 670px; 
+  margin: 0 auto;
+  text-align: center;
+}
+
+.container-image-our-services {
+  padding:20px 70px 0px;
+  margin-top: 30px;
+
+  overflow: hidden;
+}
+
+.container-image-our-services img{
+  height: 380px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.image-services {
+  border-radius: 78px 10px 78px 10px;
+  
+}
+.imageContainer {
+  position: relative;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 78px 10px 78px 10px;
+
+}
+
+.overlay {
+  position: absolute;
+  border-radius: 78px 10px 78px 10px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.overlay-center {
+  position: absolute;
+  border-radius: 78px;
+  
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.title-card {
+  color: var(--White, #FFF);
+  text-align: center;
+  font-family: Rufina;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 84px; /* 127.273% */
+}
+
+.imageContainer:hover .overlay {
+  opacity: 1;
+}
+.imageContainer:hover .overlay-center {
+  opacity: 1;
+}
+.image-container:hover{  background: rgba(0, 0, 0, 0.50); 
+}
+.image-services-center{
+  border-radius: 78px;
+  
+}
+
+.content-image{
+  position: absolute;
+  bottom: 0.5px;
+  left: 22%;
+  font-family: Rufina;
+  font-weight: 400;
+  font-size: 50px;
+  color: #fff;
+}
+
+/* end styling OUR SERVICES */
+
+
+/* styling Properties Specialities */
+
+
+.Properties-Specialities-title{
+  font-weight: 700;
+  font-family: Rufina;
+  font-size: 60px;
+  color: var(--main-color-dark);
+}
+
+
+.box-border{
+  border-right: #C9BDAB solid 1px;
+  margin-left: 30px;
+}
+
+
+/* end Properties Specialities */
+
+
+
+/* styling Join the pretty tours family */
+
+
+.section-image{
+  background-image: url(../../public//images/mosque-pictures-moroccan-wall-pattern.svg);
+  height: 729px;
+  background-repeat: no-repeat;
+  border-radius: 0px 0px 150px 0px;
+}
+
+.card-container{
+  margin: 15px;
+  width: 947px;
+  height: 424px;
+  padding: 80px;
+  border-radius: 60px 4px 60px 4px;
+  opacity: 0.9;
+  position: relative;
+}
+
+.card-content{
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+}
+
+
+/* end Properties Specialities */
+
+
+
+/* styling About us */
+
+.about-title{
+  font-weight: 600;
+  font-size: 60px;
+  color: var(--main-color-dark);
+}
+
+.about-content{
+  font-weight: 600;
+  font-size: 19px;
+  color: var(--main-color-dark);
+ 
+}
+
+
+
+.img-Group{
+  width: 108%;
+}
+
+.we-strive{
+  width: 646px;
+  height: 79px;
+  border-radius: 3px;
+  padding: 26px 16.3px 26px 16.3px;
+  background-color: var(--main-color-bg);
+  opacity: 0.7;
+}
+
+
+.Our-Clients{
+  height: 710px;
+  background-color: #F8F8F8;
+}
+
+.img-Our-Clients{
+  border-radius: 0px 0px 150px 0px;
+background: url(../../public/images/h1-background-img-11.jpg) lightgray 0px 0px / 100% 100.375% no-repeat;
+mix-blend-mode: darken;
+
+}
+
+/* end About us */
+
+
+
+
+
+
+.client-item{
+  max-width: 700px;
+  max-height: 500px;
+  border-radius: 80px 3px 80px 3px;
+  background: rgba(201, 189, 171, 0.35);
+  text-align: center;
+  margin: 50px  auto;
+  position: relative;
+  top: 20px;
+}
+
+
+.client-item p {
+  position: relative;
+  bottom: 45px;
+  font-weight: 400;
+  font-size: 16ox;
+  color: #28292a;
+  padding: 0px 70px;
+}
+
+.client-item h3 {
+  position: relative;
+  bottom: 45px;
+  font-weight: 700;
+  font-size: 20ox;
+  color: #000000;
+}
+
+.carousel-indicators {
+  position: absolute !important;
+  bottom: -2rem !important;
+}
+
+.carousel-indicators .active{
+  width: 22px !important;
+  height: 5px !important;
+}
+
+#carouselExampleDark .carousel-indicators button.active {
+  width: 20px;
+  opacity: 1;
+  height: 6px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+}
+
+#carouselExampleDark .carousel-indicators button {
+  width: 12px;
+  height: 6px;
+  border-radius: 20px;
+  border: 1px solid transparent;
+  opacity: 0.5;
+  background-color: var(--main-color-bg);
+}
+
+
+.img-thumbnail{
+  height: 120px;
+  width: 120px;
+  position: relative;
+  bottom: 55px;
+
+}
+
+.arrow-left {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #737373;
+  color: #fff;
+position: relative;
+left: 160px;
+top: 270px;
+z-index: 999999999999999999;
+border: none;
+}
+
+.arrow-right {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background-color: #737373;
+  color: #fff;
+position: relative;
+left: 800px;
+top: 270px;
+z-index: 999999999999999999;
+border: none;
+}
+
+
+#image-footer{
+  background-image: url(/images/Rectangle124.png);
+  background-position: 100%;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+
+
+}
+
+
+/* Footer */
+
+.Lets-connect-card{
+  max-width: 436px;
+  height: 456px;
+  border-radius: 8px 80px 8px 8px;
+  background-color: var(--main-color-dark);
+  color: #fff;
+
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.Lets-connect-content{
+  width: 336px;
+  height: 256px;
+  color: #fff;
+  margin: 0 auto
+}
+
+
+.Lets-connect-card h3{
+  color: #fff;
+  text-align: center;
+  font-family: Rufina;
+  font-weight: 700;
+  font-size: 52px;
+}
+
+.Lets-connect-content ul li{
+  font-size: 16px;
+  font-weight: 500;
+  font-family: Raleway;
+  text-align: start;
+}
+
+
+.Lets-connect-icon{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 30px;
+  margin-top: 80px;
+  gap: 12px;
+
+}
+
+.Lets-connect-icon i {
+  border: 2px solid #fff; 
+  border-radius: 50%;
+  width: 30px; 
+  height: 30px; 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+
+.form-card{
+  width: 820px;
+  height: 455px;
+  border-radius: 8px 8px 80px 8px;
+  background-color: #fff;
+  position: relative;
+  bottom: 20px;
+}
+
+.form-title{
+  font-weight: 700;
+  font-size: 52px;
+  color: var(--main-color-dark);
+}
+
+.form-container{
+  width: 80% !important;
+  height: 495px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.btn-sendd{
+  width: 137px;
+  height: 48px;
+  border-radius: 0px 10px 10px 10px;
+  padding: 12px 20px 12px 20px;
+  background-color: #5B656F;
+  color: #fff;
+}
+
+.section-footer{
+  background-color: #DFE3E7;
+  height: 60vh !important;
+  overflow: hidden;
+}
+
+
+.footer-link{
+  width: 80% !important;
+  height: 300px;
+  margin-left: 100px;
+  position: relative;
+  bottom: 150px;
+  left: 30px;
+}
+
+.col-one h3{
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--main-color-dark);
+}
+.col-one p{
+  font-weight: 400;
+  font-size: 16px;
+  color: #5B656F;
+  max-width: 450px;
+}
+
+.terms-footer p{
+  font-weight: 400;
+  font-family: Raleway;
+  color: var(--main-color-dark);
+}
+.terms-footer{
+  height: 290px;
+}
+
+
+.col-two h3 ,.app-widget h5{
+  font-weight: 700;
+  font-size: 18px !important;
+  font-family: Raleway;
+  color: var(--main-color-dark) !important;
+}
+
+.col-two p{
+  font-weight: 500;
+  font-size: 16px;
+  font-family: Raleway;
+  color: var(--main-color-dark);
+}
+
+.footer-icon i{
+
+  border: 2px solid #000; 
+  border-radius: 50%;
+  width: 30px; 
+  height: 30px; 
+  display: inline-flex;
+  justify-content: center;
+  align-items: center; 
+}
+
+.app-info{
+  background-color: var(--main-color-dark);
+  width: 170px;
+  height: 49px;
+  border-radius: 10px;
+  padding: 10px 5px;
+}
+
+.border-circle {
+  width: 40px; 
+  height: 40px; 
+  border-radius: 50%; 
+  overflow: hidden; 
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionConnect{
+  position: relative;
+  top: 170px;
+}
+
+.font-title-Apps{
+  font-weight: 600 !important;
+  font-family: Rufina;
+}
+
+
+/* تنسيق لشاشات الكمبيوتر والأجهزة اللوحية الكبيرة */
+
+
+  /* ************************************************************* */
+  
+  /* تنسيق للأجهزة اللوحية والحواسيب المحمولة */
+
+  @media only screen and (min-width: 768px) and (max-width: 1199px) {
+    .border-contactus{
+      border-radius: 8px 8px 80px 8px;
+       max-width: 480px;
+        height: 280px 
+    
+    }
+
+    .arrow-left{
+      display: none;
+     }
+    .MobileMenu{
+      position: fixed;
+      width: 100%;
+      z-index: 9999999999999999999999;
+    }
+
+    .Client-Section{
+      color: #181D24;
+      text-align: center;
+      font-family: Rufina;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px; /* 176% */
+    }
+    
+    .mobile_menu_bar {
+      
+      height: 60px;
+       }
+
+       .mobileMenu-Pretty-Tours{
+        font-weight: 500;
+        font-size: 16;
+        letter-spacing: 4.59px;
+        color: #F5F3F1;
+    }
+
+    .advance-style4 .tab-content{
+      display: none;
+
+    }
+
+    
+    .card-service-container{
+      display: flex;
+      width: 335px;
+      padding: 40px 20px 20px 20px;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .card-service-content{
+      color: var(--Dark, #181D24);
+    
+    font-family: Rufina;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+ 
+    }
+   
+
+    .hero-content{
+      color: var(--Primary-Gold-Dark, #5B656F);
+      text-align: center;
+      font-family: Raleway;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 1.68px;
+      text-transform: uppercase;
+    }
+
+    /* ************************** */
+
+    .Title-Section{
+      color: var(--Dark, #181D24);
+      text-align: center;
+      
+      
+      font-family: Rufina;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px; /* 118.182% */
+      letter-spacing: 1px;
+    }
+    .SubTittle-Section{
+      color: var(--Dark, #181D24);
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px; /* 120% */
+    }
+
+    
+
+    .Our-Trending-row{
+      display: flex;
+      justify-content: center;
+      gap: 26px;
+    }
+
+    
+
+/* **************** */
+
+.OUR-SERVICES-title{
+  font-size: 34px;
+}
+
+.OUR-SERVICES-content{
+  font-size: 16px;
+}
+
+.container-image-our-services{
+gap: 20px;
+text-align: center;
+}
+
+
+
+/* ********************* */
+
+    .box-border{
+      border-right: none !important;
+      border-bottom: #C9BDAB solid 1px;
+      padding: 30px 10px;
+    }
+
+    .card-res{
+      margin-left: 50px !important;
+    }
+
+    .Properties-Specialities-icon{
+      position: absolute;
+      left: 20px;
+      bottom: 80px;
+    }
+
+    .Properties-Specialities-title{
+      font-size: 42px;
+    }
+
+    /* ************************** */
+
+    .section-image{
+      background-image: url(../../public//images/mosque-pictures-moroccan-wall-pattern.svg);
+      height: 600px !important;
+      background-repeat: no-repeat;
+      border-radius: 0px 0px 80px 0px;
+    }
+    
+    .card-container{
+      
+      width: 435px;
+      height: 440px !important;
+      padding: 60px 20px 40px 20px;
+      border-radius: 60px 4px 60px 4px;
+      opacity: 0.9;
+      position: relative;
+      margin-bottom: 100px;
+    }
+    
+   
+
+    .Work-With-Us{
+      font-size: 14px;
+      font-weight: 700;
+
+
+    }
+
+    .Join-the-pretty{
+      font-weight: 700;
+      font-size: 20px !important;
+
+    }
+
+    .Join-the-family{
+      font-weight: 400;
+      font-size: 16px !important;
+
+    }
+    
+    .btn-join{
+        width: 295px !important;
+        height: 48px;
+        border-radius: 0px 10px 10px 10px;
+        padding: 12px 20px 12px 20px;
+    }
+
+    /* **************************** */
+    .about-container{
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      justify-content: center;
+      height: 1200px;
+    }
+  
+  
+  
+    .about-title{
+      font-weight: 600;
+      font-size: 40px;
+      color: var(--main-color-dark);
+     
+    }
+    
+    .about-content{
+      font-weight: 500;
+      font-size: 16px;
+      color: var(--main-color-dark);
+      text-align: center;
+      margin: 0px auto;
+      padding: 0px 20px;
+  
+
+    }
+    
+    
+    
+    .img-Group{
+      width: 100%;
+ 
+    }
+    
+    .we-strive{
+      width: 100%;
+      height: 79px;
+      border-radius: 3px;
+      padding: 12px;
+      background-color: var(--main-color-bg);
+      opacity: 0.7;
+  
+    }
+
+    .Our-Clients{
+      display: none;
+    }
+
+
+    
+    .form-card{
+      max-width: 436px;
+      height: 498px;
+      border-radius: 4px 4px 60px 4px;
+      padding: 40px 20px 40px 20px;
+    }
+    
+    .Lets-connect-content h3{
+      font-weight: 400;
+    
+    }
+    
+    .form-title{
+      font-size: 32px;
+      font-weight: 400;
+    }
+    
+    .col-two{
+      text-align: start;
+      margin-right: 270px;
+    }
+    
+    .col-three{
+      text-align: start;
+      margin-top: 30px;
+      margin-right: 90px;
+
+    }
+    
+    .btn-sendd{
+      width: 100%;
+    }
+
+  }
+
+
+
+    /* ************************************************************* */
+
+  
+  /* تنسيق للهواتف الذكية والأجهزة اللوحية الصغيرة */
+
+  @media only screen and (max-width: 600px) {
+    .card-footer{
+      flex-direction: column;
+    }
+  .copyright{
+    height:380px
+  }
+    .position{
+      position: relative;
+        top: 90px;
+    }
+    .border-contactus{
+      border-radius: 8px 8px 80px 8px;
+       max-width: 480px;
+        height: 280px 
+    
+    }
+    #image-footer{
+      background: url(/images/Rectangle124.png) lightgray -258.737px 0px / 192.099% 100% no-repeat;
+      box-shadow: 0px 4px 64px 0px rgba(0, 0, 0, 0.05);
+  }
+  .about-container {
+    display: flex;
+    flex-direction: row !important;
+    text-align: center;
+    justify-content: center;
+    height: 1221px !important;}
+
+  .card-service {
+    border-radius: 4px 60px;
+    max-height: 332px;
+    flex-shrink: 0;
+     background: none; 
+}
+  .card-image{
+    border-radius: 60px 4px 4px 4px;
+    
+    width: 335px;
+  }
+  .terms-footer{
+    height: 80px;
+  }
+  .card-service-container{
+    display: flex;
+    
+    padding: 40px 20px 20px 20px;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  .card-service-content{
+    color: var(--Dark, #181D24);
+  
+  font-family: Rufina;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+
+  }
+ 
+   
+.client-item{
+  max-width: 700px;
+  max-height: 500px;
+  border-radius: 80px 3px 80px 3px;
+  background: rgba(201, 189, 171, 0.35);
+
+
+  margin-bottom: 20px; 
+  text-align: center;
+ 
+}
+ .arrow-left{
+  display: none;
+ }
+    .img-Our-Clients{
+      border-radius: 0px 0px 40px 0px;
+      background: url(../../public/images/img1.png) lightgray 0px 0px / 100% 30.766% no-repeat;
+      mix-blend-mode: darken;
+    }
+    .Client-Section{
+      color: #181D24;
+      text-align: center;
+      font-family: Rufina;
+      font-size: 25px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px; /* 176% */
+    }
+    .container-image-our-services {
+      padding: 20px 20px;
+      margin-top: 30px;
+
+      overflow: hidden;
+    }
+    .home-services-style1 {
+      height: 100vh;
+      background: linear-gradient(180deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.00) 53.73%), linear-gradient(0deg, #FFF 0%, rgba(255, 255, 255, 0.00) 64.5%), url(/_next/static/media/image.a3b95a54.png) lightgray -1.3px -41.327px / 106.077% 110.782% no-repeat;
+  
+  
+  }
+    .home-banner-style1 {
+      height: 100vh;
+      border-radius: 0px 0px 80px 0px;
+background: linear-gradient(0deg, rgba(28, 33, 43, 0.10) 0%, rgba(28, 33, 43, 0.10) 100%), url(../../public/images/Image-ban.jpg) lightgray -166.473px -55px / 301.816% 108.885% no-repeat;
+  }
+
+        .MobileMenu{
+          position: fixed;
+          width: 100%;
+          z-index: 9999999999999999999999;
+
+        }
+
+        .mobile_menu_bar {
+      
+          height: 60px;
+           }
+      
+      
+        
+           .home-banner-style1 .home-style1 {
+    
+            align-items: end;
+            display: flex;
+            height: 100%;
+        }
+   
+
+ 
+
+        .mobileMenu-Pretty-Tours{
+            font-weight: 500;
+            font-size: 16;
+            letter-spacing: 4.59px;
+            color: #F5F3F1;
+        }
+
+
+
+
+
+
+    .advance-style4 .tab-content{
+      display: none;
+    }
+
+    
+
+
+    .hero-content{
+      color: var(--Primary-Gold-Dark, #5B656F);
+      text-align: center;
+      font-family: Raleway;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: normal;
+      letter-spacing: 1.68px;
+      text-transform: uppercase;
+    }
+
+    .Pretty-Tours{
+      color: var(--White, #FFF);
+      text-align: center;
+      text-shadow: 0px 4.977px 49.771px rgba(0, 0, 0, 0.35);
+      font-family: Rufina;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px; /* 118.182% */
+      letter-spacing: -1px;
+      text-transform: uppercase;
+   
+   }
+   
+    /* section Our Trending */
+
+
+    .Title-Section{
+      color: var(--Dark, #181D24);
+      text-align: center;
+      
+      /* Mobile/H1 */
+      font-family: Rufina;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 52px; /* 118.182% */
+      letter-spacing: 1px;
+    }
+    .SubTittle-Section{
+      color: var(--Dark, #181D24);
+      text-align: center;
+      font-family: Roboto;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      
+      line-height: 24px; /* 120% */
+    }
+
+    
+
+    .Our-Trending-row{
+      display: flex;
+      justify-content: center;
+      gap: 26px;
+    }
+
+    
+
+    
+
+    /* End section Our Trending */
+
+
+ 
+
+    .box-border{
+      border-right: none !important;
+      border-bottom: #C9BDAB solid 1px;
+      padding: 30px 10px;
+    }
+
+    .card-res{
+      margin-left: 50px !important;
+    }
+
+    .Properties-Specialities-icon{
+      position: absolute;
+      left: 20px;
+      bottom: 80px;
+    }
+    /* **************** */
+
+    .section-image{
+      background-image: url(../../public//images/mosque-pictures-moroccan-wall-pattern.svg);
+      background-repeat: no-repeat;
+      border-radius: 0px 0px 80px 0px;
+    }
+    
+    .card-container{
+      width: 335px;
+      height: 340px !important;
+      padding: 60px 20px 40px 20px;
+      border-radius: 60px 4px 60px 4px;
+      opacity: 0.9;
+      position: relative;
+      margin-top: 100px;
+    }
+    
+   
+
+    .Work-With-Us{
+      font-size: 14px;
+      font-weight: 700;
+
+
+    }
+
+    .Join-the-pretty{
+      font-weight: 700;
+      font-size: 20px !important;
+
+    }
+
+    .Join-the-family{
+      font-weight: 400;
+      font-size: 16px !important;
+
+    }
+    
+    .btn-join{
+        width: 295px !important;
+        height: 48px;
+        border-radius: 0px 10px 10px 10px;
+        padding: 12px 20px 12px 20px;
+    }
+
+/* ************************************************ */
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    height: 1200px;
+  }
+
+
+
+  .about-title{
+    font-weight: 600;
+    font-size: 40px;
+    color: var(--main-color-dark);
+  }
+  
+  .about-content{
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--main-color-dark);
+    text-align: center;
+    margin: 0px auto;
+    padding: 0px 20px;
+  
+  }
+  
+  
+  
+  .img-Group{
+    width: 100%;
+
+  }
+  
+  .we-strive{
+    width: 100%;
+    height: 79px;
+    border-radius: 3px;
+    padding: 12px;
+    background-color: var(--main-color-bg);
+    opacity: 0.7;
+   
+  }
+  
+
+
+.Our-Clients{
+  display: none;
+}
+
+
+
+.form-card{
+  max-width: 329px;
+  height: 498px;
+  border-radius: 4px 4px 60px 4px;
+  padding: 40px 20px 40px 20px;
+}
+
+.Lets-connect-content h3{
+  font-weight: 400;
+
+}
+
+.form-title{
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.footer-link{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  height: auto;
+  margin: 0 20px;
+  width: 80% !important;
+  position: relative;
+  bottom: 200px;
+  left: 30px;
+    
+}
+
+.col-two{
+  text-align: start;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+.col-three{
+  text-align: start;
+  margin-top: 30px;
+}
+
+.btn-sendd{
+  width: 100%;
+}
+
+
+  }
+  

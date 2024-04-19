@@ -1,0 +1,32 @@
+.LoginSection{
+    background-color: #F6F7F7;
+}
+
+
+
+.LogInTitle{
+    font-weight: 400;
+    font-size: 40px;
+    color: #000000;
+}
+
+
+.LogDesc{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    color: #112211;
+}
+
+.LogBtn{
+    height: 48px;
+    border-radius: 10px;
+    padding: 8px 16px 8px 16px;
+    background-color: #5B656F;
+    color: #fff;
+}
+.LogBtn:hover{
+
+    color: #fff ;
+    text-decoration: none;
+}

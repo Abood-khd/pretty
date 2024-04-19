@@ -1,0 +1,15 @@
+.Tabs{
+    margin: 0px 277px;
+    color: black !important;
+}
+.Tabs:hover{
+    color: black;
+
+}
+
+.Tabs h4{
+    background-color: #F6F7F7;
+}
+
+
+

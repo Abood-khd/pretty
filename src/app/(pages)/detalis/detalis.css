@@ -1,0 +1,176 @@
+@font-face {
+    font-family: 'Rufina';
+    src: local('Rufina Regular'), local('Rufina-Regular'), url(https://cdn.jsdelivr.net/npm/@fontsource/rufina@4.0.0/files/rufina-latin-400.woff2) format('woff2'), url(https://cdn.jsdelivr.net/npm/@fontsource/rufina@4.0.0/files/rufina-latin-400.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  @font-face {
+    font-family: 'Raleway';
+    src: local('Raleway Regular'), local('Raleway-Regular'),
+         url(https://cdn.jsdelivr.net/npm/@fontsource/raleway@4.0.0/files/raleway-latin-400.woff2) format('woff2'),
+         url(https://cdn.jsdelivr.net/npm/@fontsource/raleway@4.0.0/files/raleway-latin-400.woff) format('woff');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+
+
+  body{
+    background-image: url(../../../../public/images/img-container.jpg) !important;
+    height: 100vh ;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+     }
+  
+
+:root{
+    --main-color-dark:  #181D24;
+    --main-color-bg: #C9BDAB;
+
+
+}
+
+.font-title{
+    font-family: Rufina;
+    font-weight: 700;
+}
+
+.font-content{
+    font-family: Raleway;
+    font-weight: 400;
+}
+
+
+
+/* Start DetalisHeader */
+
+.container{
+    margin: 7px 270px 7px 270px;
+}
+
+
+.nav-homepage-style{
+    position: relative !important;
+    z-index: 3 !important;
+}
+
+
+/* end DetalisHeader */
+
+/*  */
+
+/* Start Activeties */
+
+
+ .Activeties{
+    width: 370px;
+    height: 510px;
+    border-radius: 10px 10px 80px 10px;
+    padding: 40px 100px 40px 100px;
+    background-color: var(--main-color-dark);
+    margin: 0 auto;
+ }
+
+ .Activeties-title{
+    font-weight: 700;
+    font-size: 36px;
+    color: #F5E9D6;
+    letter-spacing: 1px;
+    margin-top: 40px;
+
+ }
+
+ .Activeties-content{
+    line-height: 31px;
+    margin-top: 40px;
+ }
+
+ .Activeties-content span{
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+ }
+
+ .Activeties-content span i{
+
+    color: #C9BDAB;
+ }
+
+ /*  end Activeties */
+
+ /*  start BookTour */
+ 
+
+ .BookTour{
+  display: flex;
+  justify-content: center;
+ }
+
+.bg-section{
+  background-color: #F5F3F1;
+  padding-bottom: 30px;
+  
+}
+
+ .Availability , .Book-Tour{
+  font-weight: 700;
+  font-size: 36px;
+  color: var(--main-color-dark);
+ }
+
+ .Availability-container,.Book-Tour-container{
+  margin-top: 70px;
+ }
+
+ .Book-Tour-box{
+  width: 730px;
+  height: 354px;
+  border-radius: 4px 4px 80px 4px;
+  padding: 53px 25px 53px 25px;
+  background-color: #fff !important;
+
+}
+
+.bg-input{
+  background-color: #5B656F !important;
+  color: #fff !important;
+  border: none !important;
+  border-radius: 0px 10px 10px 10px !important;
+  padding: 12px 16px 12px 16px !important; 
+}
+
+.hight-input{
+  height: 48px !important;
+
+}
+
+.form-control{
+  color: #fff !important;
+}
+
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #5B656F !important;
+  border: none !important;
+}
+
+.btn-book{
+  width: 200px;
+  height: 48px;
+  border-radius: 0px 10px 10px 10px;
+  padding: 12px 16px 12px 16px;
+  background-color: #5B656F;
+  color: #fff;
+}
+
+.Price-container{
+  background-color: #fff;
+  height: 50px;
+  width: 1200px;
+  border-radius: 4px;
+  padding: 12px 20px 12px 20px;
+  margin-top: 24px;
+}
+
+ /*  end BookTour */

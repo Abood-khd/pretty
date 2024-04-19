@@ -1,0 +1,47 @@
+    .root {
+      --main-color: #112211;
+    }
+
+    .Account{
+        background-color: #fff;
+    }
+
+
+.Kye{
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 6 !important;
+    color: var(--main-color);
+}
+
+.Value{
+    font-family: Roboto;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--main-color);
+}
+
+.Btn{
+    padding: 8px 16px 8px 16px;
+    border:2px solid #234F68;
+    border-radius: 4px;
+    background-color: #fff;
+    width: 140px;
+    height: 48px;
+    color: #234F68;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.BtnEmail{
+    width: 177px;
+    height: 48px;
+    border-radius: 4px;
+    padding: 6px 16px 6px 16px;
+    border: 2px solid #234F68;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    color: #234F68;
+    
+}

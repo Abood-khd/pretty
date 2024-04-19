@@ -1,0 +1,88 @@
+.ContainerProfile{
+    margin: 0px 277px;
+height: 80vh;
+}
+
+
+
+
+.Background{
+    height: 350px;
+    position: relative;
+}
+
+
+.ImageWrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    position: relative;
+}
+
+.Image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    border-radius: 40px 2px 40px 2px;
+
+}
+
+
+
+
+.UploadButton {
+    position: absolute;
+    bottom: 20px;
+    left: 83%;
+    transform: translateX(-50%);
+    padding: 8px 16px 8px 16px;
+    background-color: #5B656F;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.UploadButton p{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+
+}
+
+
+.Photo{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    position: absolute;
+    border: 4px #5B656F;
+  bottom: -26%;
+  left: 50%;
+  transform: translateX(-50%);
+  border: 4px solid #5B656F;
+}
+
+.photoImage {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+     }
+
+     .Icon{
+        width: 44px;
+        height: 44px;
+        border-radius: 45px;
+        padding: 10px;
+        position: absolute;
+        left: 80%;
+        bottom: 10%;
+        z-index: 999;
+        background-color: #5B656F;
+        color: #fff;
+        text-align: center;
+     }
+
+   

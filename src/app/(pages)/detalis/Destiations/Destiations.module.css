@@ -1,0 +1,160 @@
+.Check{
+    margin-right: 80px;
+}
+
+.verticalstepper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+  .verticalstepper .Step {
+    margin-bottom: 20px;
+  }
+
+  .verticalstepper .Step:last-child {
+    margin-bottom: 0;
+  }
+
+ .StepCount {
+    width: 100px;
+    height: 47px;
+    background-color: var(--main-color-dark);
+    border-radius: 9px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.StepTitle{
+    font-weight: 600;
+    font-family: Poppins;
+    font-size: 20px;
+    color: #28292A;
+  }
+
+
+  .StepContent{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Poppins;
+    color: #28292A;
+
+  }
+
+  .ActivetiesMobile{
+    width: 345px;
+    height: 474px;
+    border-radius: 4px 4px 60px 4px;
+    padding: 40px 20px 32px 20px;
+    background-color: #181d24;
+    margin: 42px auto;
+  }
+
+  .ActivetiesTitle{
+    margin-top: 20px;
+  }
+
+  .BtnOffer{
+    padding: 12px 20px 12px 20px;
+    border-radius: 0px 10px 10px 10px;
+    width: 290px;
+    height: 58px;
+    text-align: center;
+  }
+
+  .Accordion{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .HrCustom {
+    border-width: 3px;
+    border-color: black;
+  }
+
+  .btnAccordion {
+    color: white;
+    border: none !important; 
+    padding: 10px 20px;
+    border-radius: 5px; 
+  }
+
+  .Step {
+    position: relative;
+    margin-bottom: 2em; 
+}
+
+.Step::after {
+    content: '';
+    height: 100%;
+    position: absolute;
+    border-left: 0.2vw dashed #181d24;
+    left: 1.7vw; 
+    top: 48px;
+}
+
+/* .Step:first-child{
+  background-color: red;
+} */
+
+
+@media (max-width: 767px) {
+    .Destiations{
+        display: none !important;
+    }
+
+ 
+
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .DestiationsForMobile{
+            display: none !important;
+        }
+
+        .Destiations{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .DestiationsContainer{
+         margin-right: 30px;
+            gap: 50px;
+          
+        }
+
+        .Check{
+          margin-left: 30px;
+        }
+
+      .Activeties{
+        margin-top: 45px;
+        margin-right: 85px;
+      }
+      
+      .Step {
+        position: relative;
+        margin-bottom: 2em; 
+    }
+    
+    .Step::after {
+        content: '';
+        display: none;
+    }
+
+    
+
+  }
+  
+  /* شاشة كبيرة - حواسيب شخصية وأجهزة لوحية بحجم كبير */
+  @media only screen and (min-width: 992px) {
+    .DestiationsForMobile{
+        display: none !important;
+    }
+
+  }

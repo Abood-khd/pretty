@@ -1,0 +1,54 @@
+
+
+.container{
+    margin: 7px 270px 7px 270px;
+}
+
+
+.nav-homepage-style{
+    position: relative !important;
+    z-index: 3 !important;
+}
+
+.mainImg{
+    width: 695px;
+    height: 570px ;
+}
+
+
+.containerMobile{
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+  
+    .container{
+        display: none ;
+    }
+  }
+  
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .containerMobile{
+            display: none !important;
+        }
+        .ItemImg{
+            display: none ;
+        }
+       
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .containerMobile{
+        display: none !important;
+    }
+   
+  }
